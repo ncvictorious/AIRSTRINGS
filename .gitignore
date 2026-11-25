@@ -1,0 +1,29 @@
+# Local environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.DS_Store
+.vscode/
+.idea/
+
+# Downloaded third-party model (read README for link)
+hand_landmarker.task
+
+# Local hardware/application settings
+camera_index.txt
+brightness_level.txt
+
+# Previous revision backups
+laser_harp_before_*.py
+
+# Locally recorded media (link video instead of committing it)
+recordings/
+*.mp4
+*.mov
+*.mkv
+
+# Diagnostic logs
+*.log
