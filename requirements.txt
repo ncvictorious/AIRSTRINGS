@@ -1,0 +1,6 @@
+# Python dependencies for AIRSTRINGS v2.3
+# MediaPipe Tasks API and desktop webcam tracking.
+mediapipe==1.2.3
+opencv-python>=4.8,<5
+pygame==2.6.1
+numpy>=1.26,<3
